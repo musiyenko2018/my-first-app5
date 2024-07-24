@@ -29,9 +29,9 @@ const Form = () => {
 
     return (
         <form className={styles.form} onSubmit={handleSubmit}>
-            <label>Написати нам</label>
-            <label className={styles.label}>
-                Ім'я:
+            <label><h1>Написати нам</h1></label>
+            <label className={styles.label}><h4>
+                Ім'я:</h4>
             </label>
             <input
                 type="text"
@@ -41,8 +41,8 @@ const Form = () => {
                 onChange={handleChange}
                 className={styles.input} />
 
-            <label className={styles.label}>
-                Електронна пошта:
+            <label className={styles.label}><h4>
+                Електронна пошта:</h4>
             </label>
             <input
                 type="email"
@@ -52,8 +52,8 @@ const Form = () => {
                 onChange={handleChange}
                 className={styles.input} />
 
-            <label htmlFor="mesage" className={styles.label}>
-               Повідомлення:
+            <label htmlFor="mesage" className={styles.label}><h4>
+               Повідомлення:</h4>
             </label>
             <textarea
                 id="address"
@@ -62,8 +62,8 @@ const Form = () => {
                 onChange={handleChange}
                 className={styles.input} />
 
-        <button type="submit" className={styles.button}>
-                Надіслати
+        <button type="submit" className={styles.button}><h4>
+                Надіслати</h4>
             </button>
      </form>
     );

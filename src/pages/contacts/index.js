@@ -12,15 +12,17 @@ const Contacts = () =>(
         <Header/>
         <div className={styles.contacts} >
         <div className={styles.infoContacts}>
-        <h1>Контакти</h1>
+         <h1>Контакти</h1>
         <h4>Адреса:</h4>
     <p><span>01033, м. Київ, вул. Сім'ї Прахових, 54</span></p>
     <h4>Електронна пошта:</h4>
-    <p><span>dream_team7_a11y@gmail.com</span></p>
+    <p><span>dt7_a11y@gmail.com</span></p>
     <h4>Телефон:</h4>
     <p><span>+38-044-777-11-11</span></p>
     </div> 
-    <Form />
+    <div className={styles.feedback}>
+     <Form />
+    </div>
     </div>
     <Map />
         <Footer />
