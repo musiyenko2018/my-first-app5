@@ -20,30 +20,33 @@ export default function Home (){
         <h1>Програма навчання</h1>
       </div>
         <div className={styles.main}>  
-          <Image src="/sprint1.png" width={475} height={329} alt="intro" />
-          <Image src="/sprint2.png" width={475} height={329} alt="intro" />
-          <Image src="/sprint3.png" width={475} height={329} alt="intro" />
-          
-        </div >
-        <div className={styles.main}>
-            <h3>Спрінт 1 - Знайомство</h3>
-            <h3>Спрінт 2 - Розробка</h3>
-            <h3>Спрінт 3 - Імплементація</h3>
+        <div className={styles.mainBlock}>
+            <div>
+              <Image src="/sprint1.png" width={475} height={329} alt="intro" />
+              <h3 className={styles.mainBlockItem}>Спрінт 1 - Знайомство</h3>
+              <p className={styles.mainBlockItem}><svg width="81" height="1" viewBox="0 0 81 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <line x1="0.5" y1="0.5" x2="80.5" y2="0.5" stroke="#5E6063"/>
+          </svg>
+          </p>
+            </div>
+            <div>
+              <Image src="/sprint2.png" width={475} height={329} alt="intro" />
+              <h3 className={styles.mainBlockItem}>Спрінт 2 - Розробка</h3>
+              <p className={styles.mainBlockItem}><svg width="81" height="1" viewBox="0 0 81 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <line x1="0.5" y1="0.5" x2="80.5" y2="0.5" stroke="#5E6063"/>
+          </svg>
+          </p>
+            </div>
+            <div>
+              <Image src="/sprint3.png" width={475} height={329} alt="intro" />
+              <h3 className={styles.mainBlockItem}>Спрінт 3 - Імплементація</h3>
+              <p className={styles.mainBlockItem}><svg width="81" height="1" viewBox="0 0 81 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <line x1="0.5" y1="0.5" x2="80.5" y2="0.5" stroke="#5E6063"/>
+          </svg>
+          </p>
+            </div>
 
-        </div>
-        <div className={styles.main}>
-            <p><svg width="81" height="1" viewBox="0 0 81 1" fill="none" xmlns="http://www.w3.org/2000/svg">
-<line x1="0.5" y1="0.5" x2="80.5" y2="0.5" stroke="#5E6063"/>
-</svg>
-</p>
-            <p><svg width="81" height="1" viewBox="0 0 81 1" fill="none" xmlns="http://www.w3.org/2000/svg">
-<line x1="0.5" y1="0.5" x2="80.5" y2="0.5" stroke="#5E6063"/>
-</svg>
-</p>
-            <p><svg width="81" height="1" viewBox="0 0 81 1" fill="none" xmlns="http://www.w3.org/2000/svg">
-<line x1="0.5" y1="0.5" x2="80.5" y2="0.5" stroke="#5E6063"/>
-</svg>
-</p>
+          </div >
 
         </div>
       

@@ -1,0 +1,13 @@
+.wrapper {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.bodyWapper {
+	flex: 1 0 auto;
+}
+
+.footerWrapper {
+	flex-shrink: 0;
+}

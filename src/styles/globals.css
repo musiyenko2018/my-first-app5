@@ -34,11 +34,7 @@ header {
 footer {
   text-align: center;
   font-size: 12px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10%;
-    }
+  }
 
 a {
   color: #fff;
