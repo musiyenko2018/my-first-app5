@@ -9,7 +9,7 @@ const Staff = () =>(
         <Header/>
     <h1 align = "center">Колектив ще в стадії формування</h1>
     <div align = "center">
-        <Image src="/staff.png" width={1300} height={489} alt="staff" />
+        <Image src="/staff.png" width={1300} height={489} alt="" />
       </div>
         <Footer />
      </>

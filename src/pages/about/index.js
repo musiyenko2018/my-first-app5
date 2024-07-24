@@ -11,7 +11,7 @@ const About = () => (
 				<Header />
 				<h1 align='center'>Сторінка в стадії розробки</h1>
 				<div align='center'>
-					<Image src='/about.jpg' width={500} height={500} alt='about' />
+					<Image src='/about.jpg' width={500} height={500} alt='' />
 				</div>
 				<h1 align='center'>
 					Наші спеціалісти скоро все <br />

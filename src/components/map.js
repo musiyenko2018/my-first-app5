@@ -8,15 +8,15 @@ const containerStyle = {
 	margin: '0 auto',
 };
 
-const center = { 
-	lat: 50.43484454924232,
-	lng: 30.501824833400608,
+const center = {
+	lat: 50.434824019460926,
+	lng: 30.50181408100176,
 };
 
 function Map() {
 	const { isLoaded } = useJsApiLoader({
 		id: 'google-map-script',
-		googleMapsApiKey: 'My_API_KEY',
+		googleMapsApiKey: 'AIzaSyCzM29RAt16yCnlGMxjepcXiODhyJpEx4I',
 	});
 
 	const [map, setMap] = React.useState(null);
@@ -24,17 +24,6 @@ function Map() {
 	const onLoad = React.useCallback(function callback(map) {
 		const bounds = new window.google.maps.LatLngBounds(center);
 		map.fitBounds(bounds);
-            const loader = new Loader(
-                "My_API_KEY", 'weekly'
-            );
-            const {Map} = await loader.importLibrary('maps');
-            const position = {
-                lat: 50.434824019460926, 
-                long: 30.50181408100176
-            }
-        }
-        initMap();
-    });
 
 		setMap(map);
 	}, []);
@@ -47,7 +36,7 @@ function Map() {
 		<GoogleMap
 			mapContainerStyle={containerStyle}
 			center={center}
-			zoom={10}
+			zoom={30}
 			onLoad={onLoad}
 			onUnmount={onUnmount}
 		></GoogleMap>
