@@ -24,6 +24,17 @@ function Map() {
 	const onLoad = React.useCallback(function callback(map) {
 		const bounds = new window.google.maps.LatLngBounds(center);
 		map.fitBounds(bounds);
+            const loader = new Loader(
+                "My_API_KEY", 'weekly'
+            );
+            const {Map} = await loader.importLibrary('maps');
+            const position = {
+                lat: 50.434824019460926, 
+                long: 30.50181408100176
+            }
+        }
+        initMap();
+    });
 
 		setMap(map);
 	}, []);
