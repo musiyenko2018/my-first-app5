@@ -31,7 +31,7 @@ const Form = () => {
         <form className={styles.form} onSubmit={handleSubmit}>
             <label><h1>Написати нам</h1></label>
             <label className={styles.label}><h4>
-                Ім'я:</h4>
+                Ім&#39;я:</h4>
             </label>
             <input
                 type="text"
