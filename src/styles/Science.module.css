@@ -81,3 +81,26 @@ text-align: center;
   background-color: #aaa;
   cursor: not-allowed;
 }
+.searchBar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.publications {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.publicationTile {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+}
